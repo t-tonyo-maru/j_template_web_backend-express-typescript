@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "engines": {
-    "node": "16.x"
+    "node": "18.x"
   },
   "scripts": {
     "start": "NODE_ENV=development npx nodemon --config nodemon.json --exec ts-node -r tsconfig-paths/register ./src/index.ts | pino-pretty",
